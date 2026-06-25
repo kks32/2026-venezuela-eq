@@ -1,0 +1,1065 @@
+{
+  "event_id": "venezuela-yumare-2026",
+  "title": "2026 Yumare, Venezuela",
+  "generated_at": "2026-06-25T02:20:00Z",
+  "as_of": "2026-06-25T02:20:00Z",
+  "rupture_time_local": "2026-06-24 11:05 local time",
+  "sections": [
+    {
+      "section": "introduction",
+      "title": "Introduction",
+      "clauses": [
+        {
+          "text": "The event was a doublet: an M7.2 foreshock followed shortly by an M7.5 mainshock. Earlier preliminary reports of M7.1, carried widely across syndicated outlets, are superseded by the official USGS solution and are retained as disputed.",
+          "claim_ids": [
+            "usgs-fdsn::magnitude::0",
+            "usgs-fdsn::magnitude::1",
+            "ref-2::magnitude::0"
+          ],
+          "source_refs": [
+            "abc7.com",
+            "earthquake.usgs.gov"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "The hypocentral depth is about 10 km km.",
+          "claim_ids": [
+            "usgs-fdsn::depth_km::2"
+          ],
+          "source_refs": [
+            "earthquake.usgs.gov"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "The epicenter was located 28 km SE of Yumare, Venezuela.",
+          "claim_ids": [
+            "usgs-fdsn::location::4"
+          ],
+          "source_refs": [
+            "earthquake.usgs.gov"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Epicentral coordinates are 10.44N, 68.47W.",
+          "claim_ids": [
+            "usgs-fdsn::epicenter::3"
+          ],
+          "source_refs": [
+            "earthquake.usgs.gov"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Modeled peak shaking intensity reached about MMI 9.",
+          "claim_ids": [
+            "usgs-shakemap::max_mmi::0"
+          ],
+          "source_refs": [
+            "earthquake.usgs.gov"
+          ],
+          "entailed": true
+        }
+      ]
+    },
+    {
+      "section": "building",
+      "title": "Building Damage",
+      "clauses": [
+        {
+          "text": "Bancaribe building (Caracas): severe structural damage or collapse.",
+          "claim_ids": [
+            "ref-3::damage::0"
+          ],
+          "source_refs": [
+            "us.headtopics.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Multi-story building, Los Palos Grandes (Caracas): severe structural damage or collapse.",
+          "claim_ids": [
+            "ref-9::damage::3"
+          ],
+          "source_refs": [
+            "orlandosentinel.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Residential high-rises (Caracas): severe structural damage or collapse.",
+          "claim_ids": [
+            "ref-4::damage::0"
+          ],
+          "source_refs": [
+            "news-pravda.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Homes and buildings, Altamira (Caracas): restricted-use damage (yellow-tagged).",
+          "claim_ids": [
+            "ref-2b::damage::0"
+          ],
+          "source_refs": [
+            "abc7.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Unidentified building, Falcon: severe structural damage or collapse. This report is unverified and physically implausible given the low modeled shaking intensity at this distant location; flagged for review and not relied upon.",
+          "claim_ids": [
+            "ref-soc1::damage::0"
+          ],
+          "source_refs": [
+            "twitter.com"
+          ],
+          "entailed": true
+        }
+      ]
+    },
+    {
+      "section": "infrastructure",
+      "title": "Infrastructure Impact",
+      "clauses": [
+        {
+          "text": "Simon Bolivar International Airport (Maiquetia, near Caracas): restricted-use damage (yellow-tagged).",
+          "claim_ids": [
+            "ref-1::damage::1"
+          ],
+          "source_refs": [
+            "mirror.co.uk"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Simon Bolivar International Airport (Maiquetia, near Caracas): reported closed.",
+          "claim_ids": [
+            "ref-1::lifeline_status::0"
+          ],
+          "source_refs": [
+            "mirror.co.uk"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Simon Bolivar International Airport (Maiquetia, near Caracas): reported closed.",
+          "claim_ids": [
+            "ref-19::lifeline_status::0"
+          ],
+          "source_refs": [
+            "bbc.co.uk"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Simon Bolivar International Airport (Maiquetia, near Caracas): restricted-use damage (yellow-tagged).",
+          "claim_ids": [
+            "ref-16::damage::0"
+          ],
+          "source_refs": [
+            "themirror.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Caracas Metro and rail: reported closed.",
+          "claim_ids": [
+            "ref-11::lifeline_status::1"
+          ],
+          "source_refs": [
+            "aol.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Caracas natural gas service: reported closed.",
+          "claim_ids": [
+            "ref-23::lifeline_status::1"
+          ],
+          "source_refs": [
+            "kptv.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "Caracas power and internet: reported degraded.",
+          "claim_ids": [
+            "ref-31::lifeline_status::1"
+          ],
+          "source_refs": [
+            "vietnam.vn"
+          ],
+          "entailed": true
+        }
+      ]
+    },
+    {
+      "section": "resilience",
+      "title": "Resilience and Recovery",
+      "clauses": [
+        {
+          "text": "32 people had been hospitalized.",
+          "claim_ids": [
+            "ref-9::casualty_hospitalized::1"
+          ],
+          "source_refs": [
+            "orlandosentinel.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "30 people were reported injured (counts were revised inconsistently across updates; see the contradiction certificate).",
+          "claim_ids": [
+            "ref-17::casualty_injured::2"
+          ],
+          "source_refs": [
+            "sundayguardianlive.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "15 people remained trapped.",
+          "claim_ids": [
+            "ref-9::casualty_trapped::2"
+          ],
+          "source_refs": [
+            "orlandosentinel.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "No official death toll had been released as of this briefing; the system abstains on a fatality count rather than report an unverified figure.",
+          "claim_ids": [],
+          "source_refs": [],
+          "entailed": true
+        },
+        {
+          "text": "A tsunami advisory was issued for Puerto Rico, USVI, BVI, Aruba, Curacao, Bonaire, and was later recalled; no advisory remained in effect.",
+          "claim_ids": [
+            "tsunami-gov::tsunami_warning::0",
+            "tsunami-gov-recall::tsunami_warning::0"
+          ],
+          "source_refs": [
+            "tsunami.gov"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "A nationwide state of emergency was declared.",
+          "claim_ids": [
+            "ref-11::state_of_emergency::2"
+          ],
+          "source_refs": [
+            "aol.com"
+          ],
+          "entailed": true
+        },
+        {
+          "text": "USGS PAGER modeling places likely fatalities in the range 1000 to 10000 deaths (p=0.39). An earlier outlet projection of 10000 to 100000 deaths deaths is superseded by the official estimate.",
+          "claim_ids": [
+            "usgs-pager::pager_fatalities::0",
+            "ref-28::impact_fatalities_estimate::1"
+          ],
+          "source_refs": [
+            "earthquake.usgs.gov",
+            "en.sedaily.com"
+          ],
+          "entailed": true
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "certificate_id": "cert-functional-magnitude-mainshock",
+      "constraint_family": "functional",
+      "subject_id": "event:venezuela-yumare-2026:mainshock",
+      "predicate": "magnitude",
+      "unsat_core": [
+        "ref-2::magnitude::0",
+        "usgs-fdsn::magnitude::0"
+      ],
+      "competing_values": [
+        "7.1 M [6 sources, syndication x10, OUTLET]",
+        "7.5 M [4 sources, OFFICIAL/OUTLET]"
+      ],
+      "explanation": "At most one magnitude can hold for event:venezuela-yumare-2026:mainshock (within tolerance). Conflicting values: 7.1 M [6 sources, syndication x10, OUTLET] vs 7.5 M [4 sources, OFFICIAL/OUTLET]. Resolved by provenance in reconciliation; the superseded value is retained."
+    },
+    {
+      "certificate_id": "cert-monotonic-casualty_injured-ref-17",
+      "constraint_family": "monotonic",
+      "subject_id": "event:venezuela-yumare-2026",
+      "predicate": "casualty_injured",
+      "unsat_core": [
+        "ref-17::casualty_injured::1",
+        "ref-17::casualty_injured::2"
+      ],
+      "competing_values": [
+        "45",
+        "30"
+      ],
+      "explanation": "Within source ref-17, the cumulative casualty_injured count decreases without explanation: 45 (at 19:30Z) then 30 (at 20:45Z). Flagged for review."
+    },
+    {
+      "certificate_id": "cert-type-ref-16::damage::0",
+      "constraint_family": "type",
+      "subject_id": "asset:airport-maiquetia",
+      "predicate": "damage",
+      "unsat_core": [
+        "ref-16::damage::0"
+      ],
+      "competing_values": [
+        "airport (infrastructure) routed to building"
+      ],
+      "explanation": "Section routing: Simon Bolivar International Airport is an airport, an infrastructure facility, so its damage belongs in the Infrastructure section, not Building. Building Damage covers individual structures; Infrastructure Impact covers transport and lifelines, even when a source calls an airport a 'terminal building'."
+    }
+  ],
+  "checks": [
+    {
+      "family": "functional",
+      "name": "Single depth_km for mainshock",
+      "passed": true,
+      "detail": "one consistent value (10 km) across 1 source(s)",
+      "certificate": null
+    },
+    {
+      "family": "functional",
+      "name": "Single magnitude for mainshock",
+      "passed": false,
+      "detail": "7.1 M [6 sources, syndication x10, OUTLET] vs 7.5 M [4 sources, OFFICIAL/OUTLET]",
+      "certificate": {
+        "certificate_id": "cert-functional-magnitude-mainshock",
+        "constraint_family": "functional",
+        "subject_id": "event:venezuela-yumare-2026:mainshock",
+        "predicate": "magnitude",
+        "unsat_core": [
+          "ref-2::magnitude::0",
+          "usgs-fdsn::magnitude::0"
+        ],
+        "competing_values": [
+          "7.1 M [6 sources, syndication x10, OUTLET]",
+          "7.5 M [4 sources, OFFICIAL/OUTLET]"
+        ],
+        "explanation": "At most one magnitude can hold for event:venezuela-yumare-2026:mainshock (within tolerance). Conflicting values: 7.1 M [6 sources, syndication x10, OUTLET] vs 7.5 M [4 sources, OFFICIAL/OUTLET]. Resolved by provenance in reconciliation; the superseded value is retained."
+      }
+    },
+    {
+      "family": "functional",
+      "name": "Single magnitude for foreshock",
+      "passed": true,
+      "detail": "one consistent value (7.2 M) across 2 source(s)",
+      "certificate": null
+    },
+    {
+      "family": "functional",
+      "name": "Single max_mmi for venezuela-yumare-2026",
+      "passed": true,
+      "detail": "one consistent value (9) across 1 source(s)",
+      "certificate": null
+    },
+    {
+      "family": "monotonic",
+      "name": "Monotonic casualty_injured within ref-17",
+      "passed": false,
+      "detail": "45 (at 19:30Z) then 30 (at 20:45Z)",
+      "certificate": {
+        "certificate_id": "cert-monotonic-casualty_injured-ref-17",
+        "constraint_family": "monotonic",
+        "subject_id": "event:venezuela-yumare-2026",
+        "predicate": "casualty_injured",
+        "unsat_core": [
+          "ref-17::casualty_injured::1",
+          "ref-17::casualty_injured::2"
+        ],
+        "competing_values": [
+          "45",
+          "30"
+        ],
+        "explanation": "Within source ref-17, the cumulative casualty_injured count decreases without explanation: 45 (at 19:30Z) then 30 (at 20:45Z). Flagged for review."
+      }
+    },
+    {
+      "family": "fsm",
+      "name": "tsunami_warning transition legality for venezuela-yumare-2026",
+      "passed": true,
+      "detail": "'issued' at 15:25Z precedes 'recalled' at 18:40Z",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for falcon-building (damage)",
+      "passed": true,
+      "detail": "building routed to building (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for los-palos-grandes (damage)",
+      "passed": true,
+      "detail": "building routed to building (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for bancaribe (damage)",
+      "passed": true,
+      "detail": "building routed to building (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for airport-maiquetia (lifeline_status)",
+      "passed": true,
+      "detail": "airport routed to infrastructure (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for airport-maiquetia (damage)",
+      "passed": true,
+      "detail": "airport routed to infrastructure (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for highrises-caracas (damage)",
+      "passed": true,
+      "detail": "building routed to building (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for altamira-homes (damage)",
+      "passed": true,
+      "detail": "building routed to building (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for caracas-metro (lifeline_status)",
+      "passed": true,
+      "detail": "metro routed to infrastructure (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for caracas-gas (lifeline_status)",
+      "passed": true,
+      "detail": "gas routed to infrastructure (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for airport-maiquetia (lifeline_status)",
+      "passed": true,
+      "detail": "airport routed to infrastructure (expected)",
+      "certificate": null
+    },
+    {
+      "family": "type",
+      "name": "Section routing for airport-maiquetia (damage)",
+      "passed": false,
+      "detail": "airport (infrastructure) routed to building",
+      "certificate": {
+        "certificate_id": "cert-type-ref-16::damage::0",
+        "constraint_family": "type",
+        "subject_id": "asset:airport-maiquetia",
+        "predicate": "damage",
+        "unsat_core": [
+          "ref-16::damage::0"
+        ],
+        "competing_values": [
+          "airport (infrastructure) routed to building"
+        ],
+        "explanation": "Section routing: Simon Bolivar International Airport is an airport, an infrastructure facility, so its damage belongs in the Infrastructure section, not Building. Building Damage covers individual structures; Infrastructure Impact covers transport and lifelines, even when a source calls an airport a 'terminal building'."
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "time": "2026-06-24T15:05:00Z",
+      "offset_label": "T+0m",
+      "headline": "Rupture",
+      "detail": "2026-06-24 11:05 local time",
+      "tier": null,
+      "kind": "event"
+    },
+    {
+      "time": "2026-06-24T15:25:00Z",
+      "offset_label": "T+20m",
+      "headline": "Tsunami advisory issued",
+      "detail": "",
+      "tier": 0,
+      "kind": "warning"
+    },
+    {
+      "time": "2026-06-24T15:32:00Z",
+      "offset_label": "T+27m",
+      "headline": "First magnitude report: M7.1",
+      "detail": "preliminary, OUTLET (abc7.com)",
+      "tier": 2,
+      "kind": "magnitude"
+    },
+    {
+      "time": "2026-06-24T18:12:00Z",
+      "offset_label": "T+3h07m",
+      "headline": "Main international airport closed",
+      "detail": "",
+      "tier": 2,
+      "kind": "event"
+    },
+    {
+      "time": "2026-06-24T18:40:00Z",
+      "offset_label": "T+3h35m",
+      "headline": "Tsunami advisory recalled",
+      "detail": "",
+      "tier": 0,
+      "kind": "warning"
+    },
+    {
+      "time": "2026-06-24T18:48:00Z",
+      "offset_label": "T+3h43m",
+      "headline": "State of emergency declared",
+      "detail": "",
+      "tier": 2,
+      "kind": "event"
+    },
+    {
+      "time": "2026-06-24T19:35:00Z",
+      "offset_label": "T+4h30m",
+      "headline": "Official solution: M7.5 mainshock + M7.2 foreshock",
+      "detail": "USGS doublet supersedes preliminary M7.1",
+      "tier": 0,
+      "kind": "official"
+    },
+    {
+      "time": "2026-06-24T20:05:00Z",
+      "offset_label": "T+5h00m",
+      "headline": "USGS PAGER: fatalities 1000 to 10000 deaths (p=0.39)",
+      "detail": "",
+      "tier": 0,
+      "kind": "impact"
+    }
+  ],
+  "sources_cited": [
+    {
+      "index": 1,
+      "source_id": "tsunami-gov",
+      "domain": "tsunami.gov",
+      "url": "https://www.tsunami.gov/venezuela-2026",
+      "tier": 0,
+      "dup_count": 1,
+      "published_at": "2026-06-24T15:25:00Z",
+      "cited": true
+    },
+    {
+      "index": 2,
+      "source_id": "tsunami-gov-recall",
+      "domain": "tsunami.gov",
+      "url": "https://www.tsunami.gov/venezuela-2026/recall",
+      "tier": 0,
+      "dup_count": 1,
+      "published_at": "2026-06-24T18:40:00Z",
+      "cited": true
+    },
+    {
+      "index": 3,
+      "source_id": "usgs-fdsn",
+      "domain": "earthquake.usgs.gov",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usgs-yumare-2026",
+      "tier": 0,
+      "dup_count": 1,
+      "published_at": "2026-06-24T19:35:00Z",
+      "cited": true
+    },
+    {
+      "index": 4,
+      "source_id": "usgs-shakemap",
+      "domain": "earthquake.usgs.gov",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usgs-yumare-2026/shakemap",
+      "tier": 0,
+      "dup_count": 1,
+      "published_at": "2026-06-24T19:45:00Z",
+      "cited": true
+    },
+    {
+      "index": 5,
+      "source_id": "usgs-pager",
+      "domain": "earthquake.usgs.gov",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usgs-yumare-2026/pager",
+      "tier": 0,
+      "dup_count": 1,
+      "published_at": "2026-06-24T20:05:00Z",
+      "cited": true
+    },
+    {
+      "index": 6,
+      "source_id": "ref-2",
+      "domain": "abc7.com",
+      "url": "https://abc7.com/post/powerful-71-magnitude-earthquake-hits-venezuela-swaying-buildings-capital/19374775",
+      "tier": 2,
+      "dup_count": 10,
+      "published_at": "2026-06-24T15:32:00Z",
+      "cited": true
+    },
+    {
+      "index": 7,
+      "source_id": "ref-31",
+      "domain": "vietnam.vn",
+      "url": "https://www.vietnam.vn/en/venezuela-dong-dat-manh-7-1-do-caracas-song-than",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T17:12:00Z",
+      "cited": true
+    },
+    {
+      "index": 8,
+      "source_id": "ref-28",
+      "domain": "en.sedaily.com",
+      "url": "https://en.sedaily.com/international/2026/06/25/magnitude-71-earthquake-strikes-venezuela-up-to-100000",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T17:25:00Z",
+      "cited": true
+    },
+    {
+      "index": 9,
+      "source_id": "ref-9",
+      "domain": "orlandosentinel.com",
+      "url": "https://www.orlandosentinel.com/2026/06/24/powerful-7-1-magnitude-earthquake-hits-venezuela-collapsing-buildings-caracas",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T17:40:00Z",
+      "cited": true
+    },
+    {
+      "index": 10,
+      "source_id": "ref-3",
+      "domain": "us.headtopics.com",
+      "url": "https://us.headtopics.com/news/powerful-earthquakes-strike-venezuela-causing-widespread-84888812",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T18:05:00Z",
+      "cited": true
+    },
+    {
+      "index": 11,
+      "source_id": "ref-1",
+      "domain": "mirror.co.uk",
+      "url": "https://www.mirror.co.uk/news/world-news/venezuela-earthquake-airport-collapse-caracas-37344861",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T18:12:00Z",
+      "cited": true
+    },
+    {
+      "index": 12,
+      "source_id": "ref-4",
+      "domain": "news-pravda.com",
+      "url": "https://news-pravda.com/russia/2026/06/25/2399230.html",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T18:20:00Z",
+      "cited": true
+    },
+    {
+      "index": 13,
+      "source_id": "ref-2b",
+      "domain": "abc7.com",
+      "url": "https://abc7.com/post/venezuela-altamira-collapsed-homes/19374999",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T18:30:00Z",
+      "cited": true
+    },
+    {
+      "index": 14,
+      "source_id": "ref-11",
+      "domain": "aol.com",
+      "url": "https://www.aol.com/articles/strong-7-1-magnitude-earthquake-225438342.html",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T18:48:00Z",
+      "cited": true
+    },
+    {
+      "index": 15,
+      "source_id": "ref-23",
+      "domain": "kptv.com",
+      "url": "https://www.kptv.com/2026/06/24/powerful-71-magnitude-earthquake-hits-venezuela-swaying-buildings-capital",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T18:55:00Z",
+      "cited": true
+    },
+    {
+      "index": 16,
+      "source_id": "ref-19",
+      "domain": "bbc.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/cjegdqw5d3yo",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T19:05:00Z",
+      "cited": true
+    },
+    {
+      "index": 17,
+      "source_id": "ref-16",
+      "domain": "themirror.com",
+      "url": "https://www.themirror.com/news/world-news/fatalities-in-thousands-after-75-1904822.amp",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T19:20:00Z",
+      "cited": true
+    },
+    {
+      "index": 18,
+      "source_id": "ref-17",
+      "domain": "sundayguardianlive.com",
+      "url": "https://sundayguardianlive.com/world/venezuela-earthquake-today-latest-updates-213665",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T19:50:00Z",
+      "cited": true
+    },
+    {
+      "index": 19,
+      "source_id": "ref-25",
+      "domain": "dnaindia.com",
+      "url": "https://www.dnaindia.com/world/report-venezuela-earthquake-75-and-72-magnitude-tremors-hit-west-of-caracas-3214255",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T20:30:00Z",
+      "cited": false
+    },
+    {
+      "index": 20,
+      "source_id": "ref-21",
+      "domain": "livemint.com",
+      "url": "https://www.livemint.com/news/world/venezuela-earthquake-7-5-magnitude-usgs-caracas-tsunami-warning.html",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T21:00:00Z",
+      "cited": false
+    },
+    {
+      "index": 21,
+      "source_id": "ref-33",
+      "domain": "ideastream.org",
+      "url": "https://www.ideastream.org/2026-06-24/2-major-earthquakes-strike-northern-venezuela-near-caracas",
+      "tier": 2,
+      "dup_count": 1,
+      "published_at": "2026-06-24T21:30:00Z",
+      "cited": false
+    },
+    {
+      "index": 22,
+      "source_id": "ref-soc1",
+      "domain": "twitter.com",
+      "url": "https://twitter.com/anon/status/176000000000",
+      "tier": 3,
+      "dup_count": 1,
+      "published_at": "2026-06-24T16:40:00Z",
+      "cited": true
+    }
+  ],
+  "ledger": [
+    {
+      "slot": "event.magnitude",
+      "state": "disputed",
+      "value": "doublet: M7.2 foreshock + M7.5 mainshock; M7.1 preliminary superseded (x6)",
+      "tier": 0,
+      "as_of": "2026-06-24T19:35:00Z",
+      "dup_count": 1,
+      "sources": [
+        "dnaindia.com",
+        "earthquake.usgs.gov",
+        "ideastream.org",
+        "livemint.com"
+      ],
+      "note": "Selected 7.5 M from OFFICIAL source usgs-fdsn; corroborated by 3 more; superseding cross-tier value(s) 7.1 M."
+    },
+    {
+      "slot": "airport-maiquetia.damage",
+      "state": "corroborated",
+      "value": "yellow",
+      "tier": 2,
+      "as_of": "2026-06-24T19:20:00Z",
+      "dup_count": 1,
+      "sources": [
+        "mirror.co.uk",
+        "themirror.com"
+      ],
+      "note": "Selected yellow from OUTLET source ref-16; corroborated by 1 more."
+    },
+    {
+      "slot": "airport-maiquetia.lifeline_status",
+      "state": "corroborated",
+      "value": "closed",
+      "tier": 2,
+      "as_of": "2026-06-24T19:05:00Z",
+      "dup_count": 1,
+      "sources": [
+        "bbc.co.uk",
+        "mirror.co.uk"
+      ],
+      "note": "Selected closed from OUTLET source ref-19; corroborated by 1 more."
+    },
+    {
+      "slot": "altamira-homes.damage",
+      "state": "asserted",
+      "value": "yellow",
+      "tier": 2,
+      "as_of": "2026-06-24T18:30:00Z",
+      "dup_count": 1,
+      "sources": [
+        "abc7.com"
+      ],
+      "note": "Selected yellow from OUTLET source ref-2b."
+    },
+    {
+      "slot": "bancaribe.damage",
+      "state": "asserted",
+      "value": "red",
+      "tier": 2,
+      "as_of": "2026-06-24T18:05:00Z",
+      "dup_count": 1,
+      "sources": [
+        "us.headtopics.com"
+      ],
+      "note": "Selected red from OUTLET source ref-3."
+    },
+    {
+      "slot": "caracas-gas.lifeline_status",
+      "state": "asserted",
+      "value": "closed",
+      "tier": 2,
+      "as_of": "2026-06-24T18:55:00Z",
+      "dup_count": 1,
+      "sources": [
+        "kptv.com"
+      ],
+      "note": "Selected closed from OUTLET source ref-23."
+    },
+    {
+      "slot": "caracas-metro.lifeline_status",
+      "state": "asserted",
+      "value": "closed",
+      "tier": 2,
+      "as_of": "2026-06-24T18:48:00Z",
+      "dup_count": 1,
+      "sources": [
+        "aol.com"
+      ],
+      "note": "Selected closed from OUTLET source ref-11."
+    },
+    {
+      "slot": "caracas-power.lifeline_status",
+      "state": "asserted",
+      "value": "degraded",
+      "tier": 2,
+      "as_of": "2026-06-24T17:12:00Z",
+      "dup_count": 1,
+      "sources": [
+        "vietnam.vn"
+      ],
+      "note": "Selected degraded from OUTLET source ref-31."
+    },
+    {
+      "slot": "falcon-building.damage",
+      "state": "asserted",
+      "value": "red",
+      "tier": 3,
+      "as_of": "2026-06-24T16:40:00Z",
+      "dup_count": 1,
+      "sources": [
+        "twitter.com"
+      ],
+      "note": "Selected red from SOCIAL source ref-soc1."
+    },
+    {
+      "slot": "highrises-caracas.damage",
+      "state": "asserted",
+      "value": "red",
+      "tier": 2,
+      "as_of": "2026-06-24T18:20:00Z",
+      "dup_count": 1,
+      "sources": [
+        "news-pravda.com"
+      ],
+      "note": "Selected red from OUTLET source ref-4."
+    },
+    {
+      "slot": "los-palos-grandes.damage",
+      "state": "asserted",
+      "value": "red",
+      "tier": 2,
+      "as_of": "2026-06-24T17:40:00Z",
+      "dup_count": 1,
+      "sources": [
+        "orlandosentinel.com"
+      ],
+      "note": "Selected red from OUTLET source ref-9."
+    },
+    {
+      "slot": "event.economic_estimate",
+      "state": "interval",
+      "value": "10000 to 100000 million USD (p=0.45)",
+      "tier": 0,
+      "as_of": "2026-06-24T20:05:00Z",
+      "dup_count": 1,
+      "sources": [
+        "earthquake.usgs.gov"
+      ],
+      "note": "official estimate"
+    },
+    {
+      "slot": "event.fatalities_estimate",
+      "state": "interval",
+      "value": "1000 to 10000 deaths (p=0.39)",
+      "tier": 0,
+      "as_of": "2026-06-24T20:05:00Z",
+      "dup_count": 1,
+      "sources": [
+        "earthquake.usgs.gov"
+      ],
+      "note": "official estimate; superseded 1 earlier estimate(s)"
+    },
+    {
+      "slot": "event.max_mmi",
+      "state": "confirmed",
+      "value": "9",
+      "tier": 0,
+      "as_of": "2026-06-24T19:45:00Z",
+      "dup_count": 1,
+      "sources": [
+        "earthquake.usgs.gov"
+      ],
+      "note": "conformal 90% interval +/-0.20 (OFFICIAL, OOD-discounted)"
+    },
+    {
+      "slot": "event.depth_km",
+      "state": "confirmed",
+      "value": "10 km",
+      "tier": 0,
+      "as_of": "2026-06-24T19:35:00Z",
+      "dup_count": 1,
+      "sources": [
+        "earthquake.usgs.gov"
+      ],
+      "note": "conformal 90% interval +/-0.20 (OFFICIAL, OOD-discounted)"
+    },
+    {
+      "slot": "event.epicenter",
+      "state": "corroborated",
+      "value": "10.44N, 68.47W",
+      "tier": 0,
+      "as_of": "2026-06-24T19:35:00Z",
+      "dup_count": 1,
+      "sources": [
+        "earthquake.usgs.gov"
+      ],
+      "note": "Selected 10.44N, 68.47W from OFFICIAL source usgs-fdsn."
+    },
+    {
+      "slot": "event.location",
+      "state": "corroborated",
+      "value": "28 km SE of Yumare, Venezuela",
+      "tier": 0,
+      "as_of": "2026-06-24T19:35:00Z",
+      "dup_count": 1,
+      "sources": [
+        "earthquake.usgs.gov"
+      ],
+      "note": "Selected 28 km SE of Yumare, Venezuela from OFFICIAL source usgs-fdsn."
+    },
+    {
+      "slot": "casualty.dead",
+      "state": "abstained",
+      "value": "ABSTAIN",
+      "tier": null,
+      "as_of": null,
+      "dup_count": null,
+      "sources": [],
+      "note": "no official figure released; system abstains"
+    },
+    {
+      "slot": "casualty.injured",
+      "state": "disputed",
+      "value": "30",
+      "tier": 2,
+      "as_of": "2026-06-24T20:45:00Z",
+      "dup_count": 1,
+      "sources": [
+        "sundayguardianlive.com"
+      ],
+      "note": "inconsistent revisions across updates; see contradiction certificate"
+    },
+    {
+      "slot": "casualty.trapped",
+      "state": "asserted",
+      "value": "15",
+      "tier": 2,
+      "as_of": "2026-06-24T19:30:00Z",
+      "dup_count": 1,
+      "sources": [
+        "orlandosentinel.com"
+      ],
+      "note": "single-source, awaiting official confirmation"
+    },
+    {
+      "slot": "casualty.hospitalized",
+      "state": "asserted",
+      "value": "32",
+      "tier": 2,
+      "as_of": "2026-06-24T19:30:00Z",
+      "dup_count": 1,
+      "sources": [
+        "orlandosentinel.com"
+      ],
+      "note": "single-source, awaiting official confirmation"
+    },
+    {
+      "slot": "casualty.missing",
+      "state": "abstained",
+      "value": "ABSTAIN",
+      "tier": null,
+      "as_of": null,
+      "dup_count": null,
+      "sources": [],
+      "note": "no official figure released; system abstains"
+    },
+    {
+      "slot": "warning.tsunami",
+      "state": "corroborated",
+      "value": "issued then recalled (no advisory in effect)",
+      "tier": 0,
+      "as_of": "2026-06-24T18:40:00Z",
+      "dup_count": null,
+      "sources": [
+        "tsunami.gov"
+      ],
+      "note": "legal transition verified (issued before recalled)"
+    },
+    {
+      "slot": "event.state_of_emergency",
+      "state": "asserted",
+      "value": "declared",
+      "tier": 2,
+      "as_of": "2026-06-24T18:48:00Z",
+      "dup_count": null,
+      "sources": [
+        "aol.com"
+      ],
+      "note": null
+    }
+  ],
+  "facts_cited": 27,
+  "facts_total": 41,
+  "facts_superseded": 7,
+  "sources": 31,
+  "sources_distinct": 22
+}

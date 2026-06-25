@@ -1,0 +1,45 @@
+[
+  {
+    "certificate_id": "cert-functional-magnitude-mainshock",
+    "constraint_family": "functional",
+    "subject_id": "event:venezuela-yumare-2026:mainshock",
+    "predicate": "magnitude",
+    "unsat_core": [
+      "ref-2::magnitude::0",
+      "usgs-fdsn::magnitude::0"
+    ],
+    "competing_values": [
+      "7.1 M [6 sources, syndication x10, OUTLET]",
+      "7.5 M [4 sources, OFFICIAL/OUTLET]"
+    ],
+    "explanation": "At most one magnitude can hold for event:venezuela-yumare-2026:mainshock (within tolerance). Conflicting values: 7.1 M [6 sources, syndication x10, OUTLET] vs 7.5 M [4 sources, OFFICIAL/OUTLET]. Resolved by provenance in reconciliation; the superseded value is retained."
+  },
+  {
+    "certificate_id": "cert-monotonic-casualty_injured-ref-17",
+    "constraint_family": "monotonic",
+    "subject_id": "event:venezuela-yumare-2026",
+    "predicate": "casualty_injured",
+    "unsat_core": [
+      "ref-17::casualty_injured::1",
+      "ref-17::casualty_injured::2"
+    ],
+    "competing_values": [
+      "45",
+      "30"
+    ],
+    "explanation": "Within source ref-17, the cumulative casualty_injured count decreases without explanation: 45 (at 19:30Z) then 30 (at 20:45Z). Flagged for review."
+  },
+  {
+    "certificate_id": "cert-type-ref-16::damage::0",
+    "constraint_family": "type",
+    "subject_id": "asset:airport-maiquetia",
+    "predicate": "damage",
+    "unsat_core": [
+      "ref-16::damage::0"
+    ],
+    "competing_values": [
+      "airport (infrastructure) routed to building"
+    ],
+    "explanation": "Section routing: Simon Bolivar International Airport is an airport, an infrastructure facility, so its damage belongs in the Infrastructure section, not Building. Building Damage covers individual structures; Infrastructure Impact covers transport and lifelines, even when a source calls an airport a 'terminal building'."
+  }
+]

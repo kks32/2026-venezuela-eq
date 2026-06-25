@@ -1,0 +1,291 @@
+[
+  {
+    "slot": "event.magnitude",
+    "state": "disputed",
+    "value": "doublet: M7.2 foreshock + M7.5 mainshock; M7.1 preliminary superseded (x6)",
+    "tier": 0,
+    "as_of": "2026-06-24T19:35:00Z",
+    "dup_count": 1,
+    "sources": [
+      "dnaindia.com",
+      "earthquake.usgs.gov",
+      "ideastream.org",
+      "livemint.com"
+    ],
+    "note": "Selected 7.5 M from OFFICIAL source usgs-fdsn; corroborated by 3 more; superseding cross-tier value(s) 7.1 M."
+  },
+  {
+    "slot": "airport-maiquetia.damage",
+    "state": "corroborated",
+    "value": "yellow",
+    "tier": 2,
+    "as_of": "2026-06-24T19:20:00Z",
+    "dup_count": 1,
+    "sources": [
+      "mirror.co.uk",
+      "themirror.com"
+    ],
+    "note": "Selected yellow from OUTLET source ref-16; corroborated by 1 more."
+  },
+  {
+    "slot": "airport-maiquetia.lifeline_status",
+    "state": "corroborated",
+    "value": "closed",
+    "tier": 2,
+    "as_of": "2026-06-24T19:05:00Z",
+    "dup_count": 1,
+    "sources": [
+      "bbc.co.uk",
+      "mirror.co.uk"
+    ],
+    "note": "Selected closed from OUTLET source ref-19; corroborated by 1 more."
+  },
+  {
+    "slot": "altamira-homes.damage",
+    "state": "asserted",
+    "value": "yellow",
+    "tier": 2,
+    "as_of": "2026-06-24T18:30:00Z",
+    "dup_count": 1,
+    "sources": [
+      "abc7.com"
+    ],
+    "note": "Selected yellow from OUTLET source ref-2b."
+  },
+  {
+    "slot": "bancaribe.damage",
+    "state": "asserted",
+    "value": "red",
+    "tier": 2,
+    "as_of": "2026-06-24T18:05:00Z",
+    "dup_count": 1,
+    "sources": [
+      "us.headtopics.com"
+    ],
+    "note": "Selected red from OUTLET source ref-3."
+  },
+  {
+    "slot": "caracas-gas.lifeline_status",
+    "state": "asserted",
+    "value": "closed",
+    "tier": 2,
+    "as_of": "2026-06-24T18:55:00Z",
+    "dup_count": 1,
+    "sources": [
+      "kptv.com"
+    ],
+    "note": "Selected closed from OUTLET source ref-23."
+  },
+  {
+    "slot": "caracas-metro.lifeline_status",
+    "state": "asserted",
+    "value": "closed",
+    "tier": 2,
+    "as_of": "2026-06-24T18:48:00Z",
+    "dup_count": 1,
+    "sources": [
+      "aol.com"
+    ],
+    "note": "Selected closed from OUTLET source ref-11."
+  },
+  {
+    "slot": "caracas-power.lifeline_status",
+    "state": "asserted",
+    "value": "degraded",
+    "tier": 2,
+    "as_of": "2026-06-24T17:12:00Z",
+    "dup_count": 1,
+    "sources": [
+      "vietnam.vn"
+    ],
+    "note": "Selected degraded from OUTLET source ref-31."
+  },
+  {
+    "slot": "falcon-building.damage",
+    "state": "asserted",
+    "value": "red",
+    "tier": 3,
+    "as_of": "2026-06-24T16:40:00Z",
+    "dup_count": 1,
+    "sources": [
+      "twitter.com"
+    ],
+    "note": "Selected red from SOCIAL source ref-soc1."
+  },
+  {
+    "slot": "highrises-caracas.damage",
+    "state": "asserted",
+    "value": "red",
+    "tier": 2,
+    "as_of": "2026-06-24T18:20:00Z",
+    "dup_count": 1,
+    "sources": [
+      "news-pravda.com"
+    ],
+    "note": "Selected red from OUTLET source ref-4."
+  },
+  {
+    "slot": "los-palos-grandes.damage",
+    "state": "asserted",
+    "value": "red",
+    "tier": 2,
+    "as_of": "2026-06-24T17:40:00Z",
+    "dup_count": 1,
+    "sources": [
+      "orlandosentinel.com"
+    ],
+    "note": "Selected red from OUTLET source ref-9."
+  },
+  {
+    "slot": "event.economic_estimate",
+    "state": "interval",
+    "value": "10000 to 100000 million USD (p=0.45)",
+    "tier": 0,
+    "as_of": "2026-06-24T20:05:00Z",
+    "dup_count": 1,
+    "sources": [
+      "earthquake.usgs.gov"
+    ],
+    "note": "official estimate"
+  },
+  {
+    "slot": "event.fatalities_estimate",
+    "state": "interval",
+    "value": "1000 to 10000 deaths (p=0.39)",
+    "tier": 0,
+    "as_of": "2026-06-24T20:05:00Z",
+    "dup_count": 1,
+    "sources": [
+      "earthquake.usgs.gov"
+    ],
+    "note": "official estimate; superseded 1 earlier estimate(s)"
+  },
+  {
+    "slot": "event.max_mmi",
+    "state": "confirmed",
+    "value": "9",
+    "tier": 0,
+    "as_of": "2026-06-24T19:45:00Z",
+    "dup_count": 1,
+    "sources": [
+      "earthquake.usgs.gov"
+    ],
+    "note": "conformal 90% interval +/-0.20 (OFFICIAL, OOD-discounted)"
+  },
+  {
+    "slot": "event.depth_km",
+    "state": "confirmed",
+    "value": "10 km",
+    "tier": 0,
+    "as_of": "2026-06-24T19:35:00Z",
+    "dup_count": 1,
+    "sources": [
+      "earthquake.usgs.gov"
+    ],
+    "note": "conformal 90% interval +/-0.20 (OFFICIAL, OOD-discounted)"
+  },
+  {
+    "slot": "event.epicenter",
+    "state": "corroborated",
+    "value": "10.44N, 68.47W",
+    "tier": 0,
+    "as_of": "2026-06-24T19:35:00Z",
+    "dup_count": 1,
+    "sources": [
+      "earthquake.usgs.gov"
+    ],
+    "note": "Selected 10.44N, 68.47W from OFFICIAL source usgs-fdsn."
+  },
+  {
+    "slot": "event.location",
+    "state": "corroborated",
+    "value": "28 km SE of Yumare, Venezuela",
+    "tier": 0,
+    "as_of": "2026-06-24T19:35:00Z",
+    "dup_count": 1,
+    "sources": [
+      "earthquake.usgs.gov"
+    ],
+    "note": "Selected 28 km SE of Yumare, Venezuela from OFFICIAL source usgs-fdsn."
+  },
+  {
+    "slot": "casualty.dead",
+    "state": "abstained",
+    "value": "ABSTAIN",
+    "tier": null,
+    "as_of": null,
+    "dup_count": null,
+    "sources": [],
+    "note": "no official figure released; system abstains"
+  },
+  {
+    "slot": "casualty.injured",
+    "state": "disputed",
+    "value": "30",
+    "tier": 2,
+    "as_of": "2026-06-24T20:45:00Z",
+    "dup_count": 1,
+    "sources": [
+      "sundayguardianlive.com"
+    ],
+    "note": "inconsistent revisions across updates; see contradiction certificate"
+  },
+  {
+    "slot": "casualty.trapped",
+    "state": "asserted",
+    "value": "15",
+    "tier": 2,
+    "as_of": "2026-06-24T19:30:00Z",
+    "dup_count": 1,
+    "sources": [
+      "orlandosentinel.com"
+    ],
+    "note": "single-source, awaiting official confirmation"
+  },
+  {
+    "slot": "casualty.hospitalized",
+    "state": "asserted",
+    "value": "32",
+    "tier": 2,
+    "as_of": "2026-06-24T19:30:00Z",
+    "dup_count": 1,
+    "sources": [
+      "orlandosentinel.com"
+    ],
+    "note": "single-source, awaiting official confirmation"
+  },
+  {
+    "slot": "casualty.missing",
+    "state": "abstained",
+    "value": "ABSTAIN",
+    "tier": null,
+    "as_of": null,
+    "dup_count": null,
+    "sources": [],
+    "note": "no official figure released; system abstains"
+  },
+  {
+    "slot": "warning.tsunami",
+    "state": "corroborated",
+    "value": "issued then recalled (no advisory in effect)",
+    "tier": 0,
+    "as_of": "2026-06-24T18:40:00Z",
+    "dup_count": null,
+    "sources": [
+      "tsunami.gov"
+    ],
+    "note": "legal transition verified (issued before recalled)"
+  },
+  {
+    "slot": "event.state_of_emergency",
+    "state": "asserted",
+    "value": "declared",
+    "tier": 2,
+    "as_of": "2026-06-24T18:48:00Z",
+    "dup_count": null,
+    "sources": [
+      "aol.com"
+    ],
+    "note": null
+  }
+]
